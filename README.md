@@ -1,0 +1,3 @@
+# PHP Ternary Operator and Null Values
+
+This repository demonstrates an uncommon bug in PHP related to the usage of the ternary operator with null values. The bug arises from the unexpected behavior of the ternary operator when comparing a null value against an empty string.  In this case, a null value is incorrectly treated as falsy in the context of the comparison within the ternary operator. This leads to inconsistent behavior and can introduce subtle errors in applications.
